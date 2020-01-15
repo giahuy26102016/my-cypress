@@ -21,11 +21,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cy:open": ".\\node_modules\\.bin\\cypress open",
-    "cy:run": "npm run cy:clean && .\\node_modules\\.bin\\cypress run --config video=true",
-    "cy:clean": "rd /s /q mochawesome-report\\",
-    "cy:merge-reports": "mochawesome-merge --reportDir mochawesome-report > mochawesome-report\\output.json",
-    "cy:generate-report": "marge mochawesome-report\\mochawesome.json",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "npm run cy:clean && ./node_modules/.bin/cypress run --config video=true",
+    "cy:clean": "rm -R -f mochawesome-report/",
+    "cy:merge-reports": "mochawesome-merge --reportDir mochawesome-report > mochawesome-report/output.json",
+    "cy:generate-report": "marge mochawesome-report/mochawesome.json",
     "cy:run-with-report": "npm run cy:run && npm run cy:generate-report"
   },
   "eslintConfig": {
