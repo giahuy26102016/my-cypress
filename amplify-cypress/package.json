@@ -13,7 +13,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "cypress-multi-reporters": "^1.2.3",
-    "mocha": "^7.0.0",
+    "mocha": "^7.2.0",
     "mocha-junit-reporters": "^1.23.6"
   },
   "scripts": {
@@ -45,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^3.8.1",
+    "cypress": "^12.11.0",
     "mochawesome": "^4.1.0"
   }
 }
